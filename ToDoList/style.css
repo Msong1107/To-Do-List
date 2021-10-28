@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.head-text {
+    font-family: 'GowunBatang-Regular';
+    text-align: center;
+    font-size: 56px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.input-div {
+    position: absolute;
+    margin-left: 80px;
+    width: 700px;
+    height: 50px;
+    border: 1px solid rgb(155, 199, 245);
+    border-radius: 10px;
+
+}
+
+.text-input {
+    font-size: 20px;
+    margin-top: 1px;
+    height: 46.5px;
+    width: 500px;
+    border: 0px;
+    outline: none;
+    margin-left: 10px;
+    font-family: 'GowunBatang-Regular';
+
+}
+
+.text-button {
+    position: absolute;
+    background-color: white;
+    border: 0;
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 80px;
+    height: 40px;
+    transition-duration: 0.2s;
+}
+
+.text-button:hover {
+    transition-duration: 0.2s;
+    background-color: rgba(155, 199, 245, 0.637);
+    border-radius: 10px;
+
+
+}
+
+.main {
+    position: absolute;
+    width: 850px;
+    height: 700px;
+    left: 350px;
+    border: 2px solid rgb(155, 199, 245);
+    border-radius: 50px;
+}
+
+.list-text {
+    position: absolute;
+    background-color: white;
+    border: 0;
+    margin-left: 615px;
+    margin-top: 5px;
+    width: 80px;
+    height: 40px;
+    transition-duration: 0.2s;
+}
+
+.list-text:hover {
+    background-color: rgba(155, 199, 245, 0.637);
+    border-radius: 10px;
+    transition-duration: 0.2s;
+
+}
+
+ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+    margin-left: 40px;
+    width: 700px;
+    height: 50px;
+    border: 1px solid rgb(155, 199, 245);
+    border-radius: 10px;
+
+}
+
+.list-group-text {
+    position: absolute;
+    width: 500px;
+    font-size: 20px;
+    margin-top: 10px;
+
+    border: 0px;
+    outline: none;
+    margin-left: 10px;
+    font-family: 'GowunBatang-Regular';
+
+}
+
+.bar {
+    margin-top: 100px;
+    /* border-bottom: 2px solid rgba(155, 199, 245); */
+}
+
+.List {
+    text-align: center;
+    font-family: 'GowunBatang-Regular';
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
